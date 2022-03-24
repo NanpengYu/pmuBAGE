@@ -1,5 +1,5 @@
 # pmuBAGE
-This is a repository for synthetic phasor measurement unit dataset pmuBAGE. (The Benchmarking Assortment of Generated PMU Events). The dataset consists of 84 synthetic frequency events and 620 synthetic voltage events.
+This is a repository for synthetic phasor measurement unit dataset pmuBAGE. (The Benchmarking Assortment of Generated PMU Events). The dataset consists of 84 synthetic frequency events and 620 synthetic voltage events. See (ArXiv Link Here) for details, and please cite this paper if you use the dataset!
 
 <img src="https://github.com/NanpengYu/pmuBAGE/blob/main/images/gf.png" width="300" height="500"><img src="https://github.com/NanpengYu/pmuBAGE/blob/main/images/gv.png" width="300" height="500">
 
