@@ -1,6 +1,8 @@
 # pmuBAGE
 This is a repository for synthetic phasor measurement unit dataset pmuBAGE. (The Benchmarking Assortment of Generated PMU Events). The dataset consists of 84 synthetic frequency events and 620 synthetic voltage events.
 
+![Synthetic Frequency Event](https://github.com/NanpengYu/pmuBAGE/blob/main/images/gf.png)
+
 The dataset is split into several partitions, all found in the "data" subdirectory. Frequency events are partitioned into 21 tensors each consisting of 4 events, and the voltage events are partitioned into 31 tensors each consisting of 20 events. Each NumPy tensor in these subdirectories is 4 dimensional. The dimensions are described as follows:
 
 1. The event axis. Each index on this axis corresponds to a unique synthetic event.
@@ -8,4 +10,4 @@ The dataset is split into several partitions, all found in the "data" subdirecto
 3. The PMU axis. Each index corresponds to a different synthesized synchrophasor. There are 100 indices on this axis.
 4. The temporal axis. Each index corresponds to a different timestamp. There are 600 indices on this axis (20 seconds)
 
-Each frequency event tensor file has size 4*4*100*600, and eachv oltage event tensor file has size 20*4*100*600
+Each frequency event tensor file has size 4x4x100x600, and eachv oltage event tensor file has size 20x4x100x600
