@@ -1,5 +1,5 @@
 # pmuBAGE
-This is a repository for the synthetic phasor measurement unit dataset pmuBAGE. (The Benchmarking Assortment of Generated PMU Events). See (ArXiv Link Here) for details, and please cite this paper if you use the dataset!
+This is a repository for the synthetic phasor measurement unit dataset pmuBAGE. (The Benchmarking Assortment of Generated PMU Events). See our [paper]( https://arxiv.org/abs/2204.01095) for details - and please cite this paper if you use the dataset!
 
 Sample synthetic frequency event and voltage event figures are shown below.
 
